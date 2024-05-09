@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* ---------------header----------------------------------- */
+header {
+    height: 110px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    padding: 15px;
+}
+
+.logo img {
+    height: 70px;
+    width: 70px;
+}
+
+nav {
+    height: 110px;
+    width: 75%;
+    /* margin: 0 auto; */
+    /* pad: 25px; */
+    /* position: relative; */
+}
+
+nav ul {
+    display: flex;
+    height: 110px;
+    width: 70%;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 15px;
+    font-style: bold;
+    color: green;
+}
+
+header .tn {
+    position: absolute;
+    right: 25px;
+    top: 47px;
+}
+
+ .tn:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+/* --------------------------------main-------------------------------- */
+.main {
+    height: 500px;
+    width: 100%;
+    background: url(white-product-podium-with-green-tropical-palm-leaves-golden-round-arch-green-wall_87521-3023.webp);
+}
+
+.name h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-style: bold italic;
+    padding: 200px;
+    font-size: 45px;
+}
+
+.nme h2 {
+    color: orangered;
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+
+}
+
+/* ---------------------about--------------------------------- */
+.about {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+.about .abt {
+    height: 300px;
+    width: 410px;
+    margin: 0 auto;
+    display: flex;
+    /* border: 2px solid black; */
+}
+
+.about .abt .sbt {
+    height: 150px;
+    width: 200px;
+    /* border: 1px solid black; */
+}
+
+.about .abt .sbt .box {
+    height: 150px;
+    width: 200px;
+    /* border: 1px solid black; */
+    display: inline-block;
+}
+.about .abt .sbt .box img{
+    height: 150px;
+    width: 200px;
+}
+/* ----------------------------section2--------------------------------- */
+.pic {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pic .ic {
+    height: 300px;
+    /* margin: 0 auto; */
+    width: fit-content;
+    display: flex;
+    
+}
+
+.pic .ic .c {
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.pic .ic .c .box {
+    height: 250px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.pic .ic .c img{
+    height: 150px;
+    width: 100px;
+}
+ .btn:hover{
+   background-color: orangered;
+    cursor: pointer;
+   
+}
+h2{
+    text-align: center;
+ padding: 30px;
+    color: green;
+    font-size: 20px;
+    
+}
+p{
+    text-align: center;
+    font-style: bold ;
+    font-size: 15px;
+    padding: 5px;
+}
+/* -------------------------footer-------------------------------- */
+footer{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    background-color: burlywood;
+}
+
+footer .sftr{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+footer .sftr img{
+    height: 150px;
+    width: 150px;
+}
+footer .sftr .timr{
+    height: 60px;
+    width: 200px;
+    color: rgb(0, 0, 0);
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .sftr .timr .col{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(175, 169, 169);
+    text-align: center;
+    font-style: oblique;
+
+}
+.VV{
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+ align-items: center;
+
+}
+.GG{
+    color: green;
+    font-size: 30px;
+    font-style: bold;
+    align-items: center;
+    padding: 20px;
+}
